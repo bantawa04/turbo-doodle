@@ -1,1 +1,1 @@
-### nextjs firebase crud project with lerna
+### Next js monorepo with Lerna
