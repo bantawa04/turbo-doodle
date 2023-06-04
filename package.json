@@ -11,7 +11,9 @@
     "dev": "lerna run dev",
     "start": "lerna run start",
     "new-version": "lerna version --conventional-commits --yes",
-    "diff": "lerna diff"
+    "diff": "lerna diff",
+    "package:owner": "lerna run --scope=owner dev",
+    "package:user": "lerna run --scope=consumer dev"
   },
   "resolutions": {
     "styled-components": "^5"
